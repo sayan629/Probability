@@ -1,6 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7F77DD&height=200&section=header&text=Probability%20%26%20Statistics&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=AI%20Learning%20Companion&descAlignY=58&descColor=CECBF6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B54C8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9B87F5;stop-opacity:1" />
+    </linearGradient>
+    <path id="wave-top" d="M0,160 C150,100 300,180 450,140 C600,100 750,170 900,130 L900,0 L0,0 Z"/>
+    <path id="wave-bottom" d="M0,40 C200,90 400,20 600,60 C750,90 850,50 900,70 L900,200 L0,200 Z"/>
+  </defs>
+  <use href="#wave-top" fill="url(#bgGrad)"/>
+  <use href="#wave-bottom" fill="url(#bgGrad)"/>
+  <rect x="0" y="130" width="900" height="70" fill="#7F77DD"/>
+  <text x="450" y="85" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">Probability &amp; Statistics</text>
+  <text x="450" y="118" font-family="Arial, sans-serif" font-size="16" fill="#CECBF6" text-anchor="middle">AI Learning Companion</text>
+</svg>
 
 # 📊 Probability & Statistics — AI Learning Companion
 
@@ -104,9 +118,9 @@ $$P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}$$
 **Example:**
 
 ```
-P(B)      = 0.25
+P(B)        = 0.25
 P(B|A)·P(A) = 0.17
-P(A|B)    ≈ 0.68
+P(A|B)      ≈ 0.68
 
 Posterior = useful evidence / total evidence
 ```
@@ -270,6 +284,14 @@ If this repository helped you in any way:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7F77DD&height=100&section=footer" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100">
+  <defs>
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B54C8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9B87F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path d="M0,0 C200,60 400,10 600,50 C750,80 850,30 900,50 L900,100 L0,100 Z" fill="url(#footerGrad)"/>
+</svg>
 
 </div>
