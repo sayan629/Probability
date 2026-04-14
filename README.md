@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7F77DD&height=200&section=header&text=Probability%20%26%20Statistics&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=AI%20Learning%20Companion&descAlignY=58&descColor=CECBF6" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7F77DD&height=200&section=header&text=Probability%20%26%20Statistics&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=AI%20Learning%20Companion&descAlignY=58&descColor=CECBF6"/>
 
 # 📊 Probability & Statistics — AI Learning Companion
 
